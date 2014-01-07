@@ -9,7 +9,7 @@ echo -n "Destination: "
 read dest
 
 src="$PWD/$src"
-dest="nshai@unix.andrew.cmu.edu:~/private/$dest"
+dest="AID@unix.andrew.cmu.edu:~/private/$dest"
 
 scp $src $dest
 

@@ -8,7 +8,7 @@ read src
 echo -n "Destination: "
 read dest
 
-src="nshai@unix.andrew.cmu.edu:~/private/$src"
+src="AID@unix.andrew.cmu.edu:~/private/$src"
 dest="$PWD/$dest"
 
 scp $src $dest
