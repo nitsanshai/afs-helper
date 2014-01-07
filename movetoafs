@@ -1,0 +1,16 @@
+#
+# script to move files to AFS server
+#
+
+echo -n "Source: "
+read src
+
+echo -n "Destination: "
+read dest
+
+src="$PWD/$src"
+dest="nshai@unix.andrew.cmu.edu:~/private/$dest"
+
+scp $src $dest
+
+exit 0
