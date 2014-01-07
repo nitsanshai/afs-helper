@@ -11,9 +11,12 @@ After the installation, you will be able to run the following two commands:
 
 `$ movefromafs` will prompt for a source and a destination. It will then move `~/private/src` in your AFS account to the destination (relative to your current directory).
 
+In both cases, the last prompt will ask you for your Andrew password.
+
 For example:
 ```
 $ movetoafs
 Source: testing.txt
 Destination: 15150/hw/10/
+nshai@unix.andrew.cmu.edu's password:
 ```
