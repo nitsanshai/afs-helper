@@ -7,6 +7,13 @@ All you need to do is run the command `$ ./install.sh` in your shell. It will pr
 
 After the installation, you will be able to run the following two commands:
 
-`$ movetoafs src dest` will move `src` (relative to your current directory) to `~/private/dest` in your AFS account.
+`$ movetoafs` will prompt for a source and a destination. It will then move the source (relative to your current directory) to `~/private/dest` in your AFS account.
 
-`$ movefromafs src dest` will move `~/private/src` in your AFS account to `dest` (relative to your current directory).
+`$ movefromafs` will prompt for a source and a destination. It will then move `~/private/src` in your AFS account to the destination (relative to your current directory).
+
+For example:
+```
+$ movetoafs
+Source: testing.txt
+Destination: 15150/hw/10/
+```
